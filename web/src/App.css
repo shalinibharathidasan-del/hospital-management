@@ -1,0 +1,43 @@
+body {
+  background-color: #f2f7f7;
+}
+
+.bg-teal {
+  background-color: #0f766e;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f766e, #0e7490);
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+}
+
+/* Doctor picker on the booking page */
+.doctor-card {
+  background: #fff;
+  border: 2px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.doctor-card.selected {
+  border-color: #0f766e;
+  background: #ecfdf5;
+}
+
+/* Prescription text keeps its line breaks */
+.rx {
+  white-space: pre-wrap;
+  font-family: inherit;
+  background: #f8fafc;
+  border-left: 3px solid #0f766e;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0 0.5rem;
+}
+
+.prescription .card-header {
+  background: #ecfdf5;
+}
